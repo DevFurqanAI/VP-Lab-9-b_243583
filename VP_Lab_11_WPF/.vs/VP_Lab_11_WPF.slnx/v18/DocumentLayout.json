@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arsha\\source\\repos\\VP_Lab_11_WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DE7E3-24C1-B933-5305-0F967E786343}|VP_Lab_11_WPF.csproj|c:\\users\\arsha\\source\\repos\\vp_lab_11_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D5DE7E3-24C1-B933-5305-0F967E786343}|VP_Lab_11_WPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DE7E3-24C1-B933-5305-0F967E786343}|VP_Lab_11_WPF.csproj|c:\\users\\arsha\\source\\repos\\vp_lab_11_wpf\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1D5DE7E3-24C1-B933-5305-0F967E786343}|VP_Lab_11_WPF.csproj|solutionrelative:mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DE7E3-24C1-B933-5305-0F967E786343}|VP_Lab_11_WPF.csproj|c:\\users\\arsha\\source\\repos\\vp_lab_11_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5DE7E3-24C1-B933-5305-0F967E786343}|VP_Lab_11_WPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DE7E3-24C1-B933-5305-0F967E786343}|VP_Lab_11_WPF.csproj|c:\\users\\arsha\\source\\repos\\vp_lab_11_wpf\\migrations\\20251126065543_initialsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5DE7E3-24C1-B933-5305-0F967E786343}|VP_Lab_11_WPF.csproj|solutionrelative:migrations\\20251126065543_initialsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\arsha\\source\\repos\\VP_Lab_11_WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\arsha\\source\\repos\\VP_Lab_11_WPF\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-26T06:34:23.677Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20251126065543_InitialSetup.cs",
+              "DocumentMoniker": "C:\\Users\\arsha\\source\\repos\\VP_Lab_11_WPF\\Migrations\\20251126065543_InitialSetup.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251126065543_InitialSetup.cs",
+              "ToolTip": "C:\\Users\\arsha\\source\\repos\\VP_Lab_11_WPF\\Migrations\\20251126065543_InitialSetup.cs",
+              "RelativeToolTip": "Migrations\\20251126065543_InitialSetup.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAkwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T06:55:43.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\arsha\\source\\repos\\VP_Lab_11_WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\arsha\\source\\repos\\VP_Lab_11_WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwEMAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T06:34:22.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\arsha\\source\\repos\\VP_Lab_11_WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\arsha\\source\\repos\\VP_Lab_11_WPF\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-26T06:53:11.361Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

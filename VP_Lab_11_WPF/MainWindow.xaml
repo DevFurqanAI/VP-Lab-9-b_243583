@@ -1,0 +1,84 @@
+﻿<Window x:Class="VP_Lab_11_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VP_Lab_11_WPF"
+        mc:Ignorable="d"
+        Title="SmartMart Sales Dashboard"
+        Height="650" Width="950"
+        WindowStartupLocation="CenterScreen"
+        Background="#F0F0F0">
+
+    <Grid Margin="10">
+        <!-- Define Rows -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/> <!-- Header -->
+            <RowDefinition Height="Auto"/> <!-- Buttons -->
+            <RowDefinition Height="*"/>    <!-- DataGrid -->
+        </Grid.RowDefinitions>
+
+        <!-- Header Section -->
+        <Border Grid.Row="0" Background="#2196F3" CornerRadius="8" Padding="10" Margin="0,0,0,10" >
+            <TextBlock Text="SmartMart Sales Dashboard"
+                       FontSize="26"
+                       FontWeight="Bold"
+                       Foreground="White"
+                       HorizontalAlignment="Center"/>
+        </Border>
+
+        <!-- Buttons Section -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+            <Button Name="btnViewPurchases"
+                    Content="View Purchases"
+                    Width="160" Height="45"
+                    Background="#4CAF50"
+                    Foreground="White"
+                    FontWeight="SemiBold"
+                    Click="btnViewPurchases_Click"
+                    Margin="5"/>
+
+            <Button Name="btnNoPurchases"
+                    Content="Customers with No Purchases"
+                    Width="200" Height="45"
+                    Background="#FF9800"
+                    Foreground="White"
+                    FontWeight="SemiBold"
+                    Click="btnNoPurchases_Click"
+                    Margin="5"/>
+
+            <Button Name="btnSalesPerCustomer"
+                    Content="Sales Count per Customer"
+                    Width="180" Height="45"
+                    Background="#2196F3"
+                    Foreground="White"
+                    FontWeight="SemiBold"
+                    Click="btnSalesPerCustomer_Click"
+                    Margin="5"/>
+
+            <Button Name="btnSalesPerCategory"
+                    Content="Sales Count per Category"
+                    Width="180" Height="45"
+                    Background="#9C27B0"
+                    Foreground="White"
+                    FontWeight="SemiBold"
+                    Click="btnSalesPerCategory_Click"
+                    Margin="5"/>
+        </StackPanel>
+
+        <!-- DataGrid Section -->
+        <Border Grid.Row="2" Background="White" CornerRadius="6" Padding="5" Margin="0,0,0,0" >
+            <DataGrid Name="dgResults"
+                      AutoGenerateColumns="True"
+                      CanUserAddRows="False"
+                      CanUserDeleteRows="False"
+                      IsReadOnly="True"
+                      RowHeight="30"
+                      FontSize="14"
+                      AlternatingRowBackground="#E8F0F7"
+                      GridLinesVisibility="Horizontal"
+                      HeadersVisibility="Column"
+                      SelectionMode="Single"/>
+        </Border>
+    </Grid>
+</Window>
